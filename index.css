@@ -1,0 +1,36 @@
+
+img {
+  width: 100%;
+  object-fit: cover;
+}
+
+h2,
+span {
+  font-family: "Teko", sans-serif;
+  padding: 0 2rem;
+  width: 100%;
+}
+
+h2 {
+  font-weight: 300;
+  font-size: 2.25rem;
+  padding: 1.5rem;
+}
+
+span {
+  font-weight: 100;
+  font-size: 1.25rem;
+  display: inline-block;
+  padding: 0 1.5rem;
+}
+
+section {
+  margin-bottom: 2rem;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  :has(:target) {
+    scroll-behavior: smooth;
+    scroll-padding-top: 3rem;
+  }
+}
